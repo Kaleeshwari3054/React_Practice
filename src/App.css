@@ -1,0 +1,218 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.button{
+  background-color: burlywood;
+  color: black;
+  padding: 10px 10px;
+  margin-bottom:30px;
+  border-color: white;
+
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .card-wrapper{
+  background-color: gray;
+  color: #fff;
+} */
+/* CardWrapper.module.css */
+/* .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 10, 0.1);
+  max-width: 300px;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+  margin-bottom: 100px;
+}
+.card-details{
+  padding-top: 30px;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #d7d9dd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+  width: 200px;
+  height: 150px;
+} */
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.content-container {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: blueviolet;
+}
+
+.page-content {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 20px;
+  background: rgb(178, 160, 69);
+  border-radius: 10px;
+}
+
+/* Centering form */
+.form-container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.form-box {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.form-box h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 200px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Number-Parent {
+  margin-top: 50px;
+}
+.Formclass {
+  margin-bottom: 50px;
+}
+
+/* Append-Number */
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; 
+}
