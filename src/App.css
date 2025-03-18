@@ -88,7 +88,7 @@ button:hover {
   height: 150px;
 } */
 /* Reset default styles */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -139,10 +139,9 @@ nav {
   padding: 20px;
   background: rgb(178, 160, 69);
   border-radius: 10px;
-}
+} */
 
-/* Centering form */
-.form-container {
+/* .form-container {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -199,7 +198,7 @@ button {
 }
 
 /* Append-Number */
-h3 {
+/* h3 {
   margin-top: 20px;
 }
 
@@ -215,4 +214,173 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f4f4f4; 
+} 
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.city-list {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: left;
+  gap: 20px;
+  border: 1px solid grey;
+}
+
+.city-list > div {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  border: 0.5px solid grey;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: left;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.habit-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.habit-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.habit-input {
+  width: 65%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.habit-add-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.habit-add-btn:hover {
+  background: #0056b3;
+}
+
+.habit-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.habit-edit-btn {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.habit-edit-btn:hover {
+  background: #e68900;
+}
+
+.habit-update-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.habit-update-btn:hover {
+  background: #218838;
+}
+
+.habit-delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.habit-delete-btn:hover {
+  background: darkred;
 }

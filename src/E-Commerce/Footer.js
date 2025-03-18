@@ -8,7 +8,6 @@ export default function Footer() {
     <footer className="footer bg-light text-dark py-4">
       <div className="container">
         <div className="row">
-          {/* Logo & Description */}
           <div className="col-md-3">
             <h5 className="text-uppercase fw-bold">MDCOM</h5>
             <p>
@@ -16,8 +15,6 @@ export default function Footer() {
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-
-          {/* Contact Info */}
           <div className="col-md-3">
             <h5 className="fw-bold">Contact Us</h5>
             <p>Email: info@example.com</p>
@@ -25,7 +22,6 @@ export default function Footer() {
             <p>Address: 123 Saligramam, Chennai, Tamil Nadu</p>
           </div>
 
-          {/* Useful Links */}
           <div className="col-md-3">
             <h5 className="fw-bold">Useful Links</h5>
             <ul className="list-unstyled">
@@ -36,7 +32,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Social Media Icons */}
           <div className="col-md-3">
             <h5 className="fw-bold">Follow Us</h5>
             <div className="d-flex gap-3">

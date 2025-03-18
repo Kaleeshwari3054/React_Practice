@@ -13,7 +13,6 @@ import { Outlet } from "react-router-dom";
 //  /profile -> Profile
 //  /contact -> Contact 
 
- 
 
 function Landing() {
     return (
